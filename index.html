@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ائتلاف دولة القانون – الصفحة الرئيسية</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Progressive Web App manifest and theme color -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a863e">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Coalition logo.  The alt text describes the scales of justice with the coalition name inside a laurel wreath. -->
+      <!-- Use a PNG logo for better compatibility with some browsers/devices -->
+      <img src="assets/state_of_law_logo.png" alt="شعار ائتلاف دولة القانون">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="program.html">البرنامج الانتخابي</a></li>
+        <li><a href="leader.html">نبذة عن الزعيم</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>معاً نحو عراق أقوى</h1>
+      <p>
+        يهدف ائتلاف دولة القانون إلى بناء دولة دستورية قوية قائمة على المواطنة وسيادة القانون،
+        مع ترسيخ ثقافة المشاركة السياسية واحترام خيارات الشعب العراقي. نسعى إلى تحقيق مشروع سياسي
+        واقتصادي واجتماعي متكامل يضمن التنمية والعدالة لكل أبناء الوطن.
+      </p>
+      <a class="btn" href="program.html">اطلع على برنامجنا</a>
+    </section>
+
+    <!-- Goals summary cards -->
+    <div class="card">
+      <h2>أهدافنا الرئيسية</h2>
+      <ul class="list">
+        <li><strong>بناء دولة قوية:</strong> ترسيخ مؤسسات فاعلة تضمن الاستقرار وتعمل لخدمة المواطن وحماية سيادة العراق.</li>
+        <li><strong>تنمية الإنسان:</strong> الاستثمار في التعليم والصحة والفرص للشباب، لأن المواطن أساس النهضة والتقدم.</li>
+        <li><strong>اقتصاد منتج ومستدام:</strong> تعزيز المشاريع الوطنية، دعم البنية التحتية والطاقة لخلق فرص عمل وتطوير الاقتصاد.</li>
+        <li><strong>العدالة والإنصاف:</strong> ضمان العدالة الاجتماعية وتكافؤ الفرص ليشعر كل فرد بكرامته وحقوقه داخل وطنه.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>رؤيتنا المستقبلية</h2>
+      <p>
+        إن رؤيتنا تنطلق من وعي وطني حر ومستقل، بعيداً عن أي وصاية داخلية أو خارجية. نحن نؤمن بأهمية
+        الاستقرار الأمني وتعزيز قدرات الأجهزة الأمنية، ونركز على مكافحة الفساد وحماية الثروة العامة، مع
+        الاعتزاز بالهوية الوطنية والعمل على التنمية البشرية والاقتصاد الأخضر والتحول الرقمي.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>من هو نوري المالكي؟</h2>
+      <p>
+        السيد نوري كامل المالكي هو رئيس وزراء العراق الأسبق وزعيم ائتلاف دولة القانون. قاد البلاد في
+        أصعب مراحلها بعد 2003، حيث واجه التحديات الأمنية والسياسية والاقتصادية، واضعاً أسس الدولة
+        الحديثة. لمعرفة المزيد عن مسيرته وإنجازاته، تفضل بزيارة صفحة <a href="leader.html">نبذة عن الزعيم</a>.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 ائتلاف دولة القانون – كل الحقوق محفوظة
+  </footer>
+
+  <!-- Register service worker for PWA functionality -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "ائتلاف دولة القانون",
+  "short_name": "دولة القانون",
+  "description": "موقع رسمي يعرض البرنامج الانتخابي لائتلاف دولة القانون.",
+  "lang": "ar-IQ",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#e3f5e8",
+  "theme_color": "#0a863e",
+  "icons": [
+    {
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
